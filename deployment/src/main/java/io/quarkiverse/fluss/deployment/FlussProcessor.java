@@ -5,6 +5,7 @@ import io.quarkus.arc.deployment.AdditionalBeanBuildItem;
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
 import io.quarkus.deployment.builditem.nativeimage.ReflectiveClassBuildItem;
+import io.quarkus.deployment.builditem.nativeimage.RuntimeInitializedClassBuildItem;
 
 class FlussProcessor {
 
@@ -18,6 +19,11 @@ class FlussProcessor {
     @BuildStep
     AdditionalBeanBuildItem registerFlussConnector() {
         return AdditionalBeanBuildItem.unremovableOf(FlussConnector.class);
+    }
+
+    @BuildStep
+    RuntimeInitializedClassBuildItem runtimeInitMetadataUtils() {
+        return new RuntimeInitializedClassBuildItem("org.apache.fluss.client.utils.MetadataUtils");
     }
 
     @BuildStep
