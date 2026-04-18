@@ -1,0 +1,11 @@
+name: Fluss
+description: SmallRye Reactive Messaging connector for Apache Fluss
+metadata:
+  keywords:
+    - fluss
+    - reactive-messaging
+    - streaming
+  guide: https://docs.quarkiverse.io/quarkus-fluss/dev/
+  categories:
+    - "messaging"
+  status: "preview"
