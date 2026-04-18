@@ -16,7 +16,7 @@ IMPORTANT: The Fluss client uses Apache Arrow internally, which requires `--add-
 
 == Installation
 
-If you want to use this extension, you need to add the `io.quarkiverse.fluss:quarkus-fluss` extension first to your build file.
+If you want to use this extension, you need to add the `io.quarkiverse.fluss:quarkus-messaging-fluss` extension first to your build file.
 
 For instance, with Maven, add the following dependency to your POM file:
 
@@ -24,7 +24,7 @@ For instance, with Maven, add the following dependency to your POM file:
 ----
 <dependency>
     <groupId>io.quarkiverse.fluss</groupId>
-    <artifactId>quarkus-fluss</artifactId>
+    <artifactId>quarkus-messaging-fluss</artifactId>
     <version>{project-version}</version>
 </dependency>
 ----
@@ -193,4 +193,4 @@ The `InternalRow` you receive will only contain the projected columns (indexed s
 [[extension-configuration-reference]]
 == Extension Configuration Reference
 
-include::includes/quarkus-fluss.adoc[leveloffset=+1, opts=optional]
+include::includes/quarkus-messaging-fluss.adoc[leveloffset=+1, opts=optional]

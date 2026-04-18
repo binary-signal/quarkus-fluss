@@ -8,7 +8,7 @@
         <version>20</version>
     </parent>
     <groupId>io.quarkiverse.fluss</groupId>
-    <artifactId>quarkus-fluss-parent</artifactId>
+    <artifactId>quarkus-messaging-fluss-parent</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Quarkus Fluss - Parent</name>

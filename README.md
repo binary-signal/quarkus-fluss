@@ -1,6 +1,6 @@
 # Quarkus Fluss
 
-[![Version](https://img.shields.io/maven-central/v/io.quarkiverse.fluss/quarkus-fluss?logo=apache-maven&style=flat-square)](https://central.sonatype.com/artifact/io.quarkiverse.fluss/quarkus-fluss-parent)
+[![Version](https://img.shields.io/maven-central/v/io.quarkiverse.fluss/quarkus-messaging-fluss?logo=apache-maven&style=flat-square)](https://central.sonatype.com/artifact/io.quarkiverse.fluss/quarkus-messaging-fluss-parent)
 
 A [Quarkus](https://quarkus.io/) extension that provides
 a [SmallRye Reactive Messaging](https://smallrye.io/smallrye-reactive-messaging/)
@@ -36,7 +36,7 @@ Add the runtime dependency to your Quarkus application:
 ```xml
 <dependency>
     <groupId>io.quarkiverse.fluss</groupId>
-    <artifactId>quarkus-fluss</artifactId>
+    <artifactId>quarkus-messaging-fluss</artifactId>
     <version>0.1.0-SNAPSHOT</version>
 </dependency>
 ```
